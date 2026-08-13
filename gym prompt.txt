@@ -1,0 +1,78 @@
+1-You are a senior front-end developer and visual designer.
+2-website should be mobile responsive 
+3-Image added in @gym use those images there is logo and banner image to 
+
+
+Build a ONE-PAGE STATIC GYM WEBSITE for “Fit It Gym”. Output MUST be a single self-contained HTML file (HTML + embedded CSS + embedded JS). No external libraries. Use semantic HTML, responsive design, and accessibility.
+
+Brand & visuals
+- Color theme: black background with warm light accents (amber/gold) + green plant elements.
+- Style: very aesthetic, modern, clean, premium fitness vibe.
+- Add a subtle animated glow and ambient particles or light streaks in the background.
+- Add plant-like decorative SVGs/illustrations (simple shapes are fine) near hero/side sections.
+
+Logo concept
+- Include a simple inline SVG logo icon concept: a brain + arm muscle (💪) feel. (You may stylize it as abstract shapes; it doesn’t need to be perfect.) Place it in the top-left header.
+
+Required content (sections)
+1) Header / Navigation
+- Gym logo + title “Fit It Gym”.
+- Nav links that scroll to sections: About, Trainers, Schedule, Facilities, Contact.
+
+2) Hero (top)
+- Title line: “FIT IT GYM”
+- Theme line (subtitle): “Strength. Discipline. Clean Space.” (use this exact phrase or a very close alternative provided by you)
+- Short tagline: 1–2 lines describing the vibe.
+- CTA buttons: “View Schedule” and “Book a Trial”.
+- Hero image area: create a stylized “gym mat” visual (abstract mat stripes) using CSS/SVG.
+
+3) About
+- 3–4 bullet points describing cleanliness, dedicated trainers, and supportive environment.
+
+4) Trainers
+- Two cards: “Dedicated Trainers for Girls” and “Dedicated Trainers for Boys”.
+- Each card includes: a short description + a small icon.
+
+5) Schedule (CRITICAL)
+- Section title: “Gym Timing”
+- Boys timing: “4:00 PM to 9:00 AM”
+  - Clarify in small text that it spans overnight (e.g., “Overnight hours: 4 PM → 11:59 PM and 12:00 AM → 9 AM”).
+- Girls timing: “10:00 AM to 4:00 PM”
+- Add a clean timeline-style UI (cards or horizontal timeline).
+
+6) Facilities / “Specific drawers for everyone”
+- Interpret “drawers” as dedicated locker/drawer zones or facility cards.
+- Create 4 facility tiles, e.g.:
+  - “Personal Lockers”
+  - “Clean Towel Area”
+  - “Dedicated Equipment Zones”
+  - “Sanitized Mat Space”
+- Make the labels match the “clean environment” requirement.
+
+7) Contact
+- Include: email, phone, location fields placeholders.
+- Provide a simple contact form (ALi, 03139172950/fitit.gym@gmail.com) that does NOT submit anywhere (just a front-end demo).
+
+8) Footer
+- Footer with: address https://maps.app.goo.gl/661ikswhuZYZqWcV8, hours summary, social icons (simple inline SVG), and copyright.
+
+Animations (must be included)
+- Use subtle animations only:
+  - Fade/slide-in on scroll for each section (IntersectionObserver).
+  - Hover effects on cards/buttons.
+  - Background ambient animation (CSS keyframes for glow/particles/light).
+- Respect reduced-motion:
+  - If prefers-reduced-motion is enabled, disable non-essential animations.
+
+Typography & UI
+- Use a modern sans-serif stack.
+- Make buttons warm (amber gradient) on black.
+- Ensure good contrast.
+
+Implementation constraints
+- Single file: everything embedded.
+- Keep code clean and commented.
+- Responsive for mobile (hamburger menu is optional; if used, implement it).
+
+
+
