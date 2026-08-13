@@ -665,19 +665,23 @@
         }
 
         .trainer-icon {
-            width: 60px;
-            height: 60px;
+            width: 80px;
+            height: 80px;
             margin: 0 auto 1.5rem;
-            background: var(--gradient-amber);
             border-radius: 50%;
             display: flex;
             align-items: center;
             justify-content: center;
+            overflow: hidden;
+            border: 3px solid var(--color-accent);
+            background: var(--color-bg-secondary);
         }
 
-        .trainer-icon svg {
-            width: 30px;
-            height: 30px;
+        .trainer-icon img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            filter: brightness(0.9) contrast(1.1);
         }
 
         .trainer-card h3 {
@@ -1241,7 +1245,7 @@
     <header>
         <div class="logo-container">
             <div class="logo-icon">
-                <img src="gym/logo.png" alt="Fit It Gym Logo">
+                <img src="gym/logo.jfif" alt="Fit It Gym Logo">
             </div>
             <div class="logo-text">Fit It <span>Gym</span></div>
         </div>
@@ -1380,20 +1384,14 @@
             <div class="trainers-cards">
                 <div class="trainer-card">
                     <div class="trainer-icon">
-                        <svg viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <circle cx="15" cy="8" r="5" stroke="#000" stroke-width="2" fill="none"/>
-                            <path d="M5 25 Q5 18, 15 18 Q25 18, 25 25" stroke="#000" stroke-width="2" fill="none"/>
-                        </svg>
+                        <img src="gym/boy-trainer.png" alt="Female Trainer">
                     </div>
                     <h3>Dedicated Trainers for Girls</h3>
                     <p>Professional female trainers creating a comfortable and empowering environment for women to achieve their fitness goals.</p>
                 </div>
                 <div class="trainer-card">
                     <div class="trainer-icon">
-                        <svg viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <circle cx="15" cy="8" r="5" stroke="#000" stroke-width="2" fill="none"/>
-                            <path d="M5 25 Q5 18, 15 18 Q25 18, 25 25" stroke="#000" stroke-width="2" fill="none"/>
-                        </svg>
+                        <img src="gym/girl-trainer.png" alt="Male Trainer">
                     </div>
                     <h3>Dedicated Trainers for Boys</h3>
                     <p>Experienced male trainers focused on strength, conditioning, and performance optimization for serious athletes.</p>
@@ -1427,6 +1425,48 @@
                     <div class="gallery-overlay">
                         <h4>Strength Training</h4>
                         <p>Dedicated areas for powerlifting and bodybuilding</p>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="gym/1.jpg" alt="Gym Interior">
+                    <div class="gallery-overlay">
+                        <h4>Gym Interior</h4>
+                        <p>Spacious and well-lit training environment</p>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="gym/3.jpg" alt="Free Weights Area">
+                    <div class="gallery-overlay">
+                        <h4>Free Weights Area</h4>
+                        <p>Comprehensive dumbbell and barbell selection</p>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="gym/4.jpg" alt="Training Space">
+                    <div class="gallery-overlay">
+                        <h4>Training Space</h4>
+                        <p>Open floor for functional training exercises</p>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="gym/8.jpg" alt="Facility Overview">
+                    <div class="gallery-overlay">
+                        <h4>Facility Overview</h4>
+                        <p>Full view of our premium gym facility</p>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="gym/9.jpg" alt="Equipment Zone">
+                    <div class="gallery-overlay">
+                        <h4>Equipment Zone</h4>
+                        <p>Organized zones for different workout types</p>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="gym/10.jpg" alt="Training Action">
+                    <div class="gallery-overlay">
+                        <h4>Training Action</h4>
+                        <p>Dynamic training sessions in progress</p>
                     </div>
                 </div>
             </div>
